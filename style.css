@@ -1,0 +1,30 @@
+@media only screen and (min-width:365px) and (max-width:992px){
+ .row{
+  display: grid !important;
+  grid-template-columns: 1fr !important;  
+  margin-left: 10% !important;
+  margin-bottom: 30px !important;
+ }   
+ .col-6{
+    border-bottom-left-radius:0px !important; 
+    } 
+    .last{
+        border-bottom-left-radius:10px !important; 
+    } 
+ .col-12{
+    width: 50% !important;
+ }
+}
+@media only screen and (min-width:575px) and (max-width:778px){
+    .col-12{
+        width: 100% !important;
+        border-radius: 0% !important;
+     }
+ .col-6{
+ width: 100% !important; 
+ border-bottom-left-radius:0px !important; 
+ } 
+ .last{
+    border-bottom-left-radius:10px !important; 
+}        
+}
